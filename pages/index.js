@@ -345,106 +345,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 
-{/* REVIEWS}*/}
-<section className="reviews">
-  <div className="row d-flex justify-content-center">
-    <div className="col-md-10 col-xl-8 text-center">
-      <h3 className="mb-4">Estudiantes egresados</h3>
-      <p className="mb-4 pb-2 mb-md-5 pb-md-0">
-      Algunos de los comentarios de nuestros estudiantes después de hacer este curso
-      </p>
-    </div>
-  </div>
 
-  <div className="row text-center">
-    <div className="col-md-4 mb-5 mb-md-0">
-      <div className="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-          className="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
-      <h5 className="mb-3">Maria Smantha</h5>
-      <h6 className="text-primary mb-3">Estudiante de Mercadeo</h6>
-      <p className="px-xl-3">
-        <i className="fas fa-quote-left pe-2"></i>Para mí fue increíble encontrar un curso tan completo que tiene poco tiempo, es decir lo puedes hacer en cualquier momento del día y enseñan cosas tan importantes como el libro de órdenes, luego de eso mi trading mejoro mucho.
-      </p>
-      <ul className="list-unstyled d-flex justify-content-center mb-0">
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star-half-alt fa-sm text-warning"></i>
-        </li>
-      </ul>
-    </div>
-    <div className="col-md-4 mb-5 mb-md-0">
-      <div className="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-          className="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
-      <h5 className="mb-3">Ana Rodiguez</h5>
-      <h6 className="text-primary mb-3">Fotografa</h6>
-      <p className="px-xl-3">
-        <i className="fas fa-quote-left pe-2"></i>Super completo, me encanta, aparte de la fotografía mi pasión durante 
-        el ultimo año ha sido aprender a invertir. Con este curso mejore bastante luego de corregir el tamaño de mis posiciones.
-      </p>
-      <ul className="list-unstyled d-flex justify-content-center mb-0">
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-      </ul>
-    </div>
-    <div className="col-md-4 mb-0">
-      <div className="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
-          className="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
-      <h5 className="mb-3">Rodrigo Jimenez</h5>
-      <h6 className="text-primary mb-3">Ingeniero en Alimentos</h6>
-      <p className="px-xl-3">
-        <i className="fas fa-quote-left pe-2"></i>Bueno en pocas palabras pasé de perder 100 a doscientos 
-        dólares semanales a tener una cuenta de mas de 4,500 dólares en 7 meses, pensé que seria imposible.
-      </p>
-      <ul className="list-unstyled d-flex justify-content-center mb-0">
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i className="far fa-star fa-sm text-warning"></i>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
 
 
 
@@ -558,7 +459,106 @@ window.addEventListener('DOMContentLoaded', event => {
                 </section>
 
 
-           
+           {/* REVIEWS}*/}
+<section className="reviews">
+  <div className="row d-flex justify-content-center">
+    <div className="col-md-10 col-xl-8 text-center">
+      <h3 className="mb-4">Estudiantes egresados</h3>
+      <p className="mb-4 pb-2 mb-md-5 pb-md-0">
+      Algunos de los comentarios de nuestros estudiantes después de hacer este curso
+      </p>
+    </div>
+  </div>
+
+  <div className="row text-center">
+    <div className="col-md-4 mb-5 mb-md-0">
+      <div className="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+          className="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 className="mb-3">Maria Smantha</h5>
+      <h6 className="text-primary mb-3">Estudiante de Mercadeo</h6>
+      <p className="px-xl-3">
+        <i className="fas fa-quote-left pe-2"></i>Para mí fue increíble encontrar un curso tan completo que tiene poco tiempo, es decir lo puedes hacer en cualquier momento del día y enseñan cosas tan importantes como el libro de órdenes, luego de eso mi trading mejoro mucho.
+      </p>
+      <ul className="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star-half-alt fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div className="col-md-4 mb-5 mb-md-0">
+      <div className="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+          className="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 className="mb-3">Ana Rodiguez</h5>
+      <h6 className="text-primary mb-3">Fotografa</h6>
+      <p className="px-xl-3">
+        <i className="fas fa-quote-left pe-2"></i>Super completo, me encanta, aparte de la fotografía mi pasión durante 
+        el ultimo año ha sido aprender a invertir. Con este curso mejore bastante luego de corregir el tamaño de mis posiciones.
+      </p>
+      <ul className="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div className="col-md-4 mb-0">
+      <div className="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+          className="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 className="mb-3">Rodrigo Jimenez</h5>
+      <h6 className="text-primary mb-3">Ingeniero en Alimentos</h6>
+      <p className="px-xl-3">
+        <i className="fas fa-quote-left pe-2"></i>Bueno en pocas palabras pasé de perder 100 a doscientos 
+        dólares semanales a tener una cuenta de mas de 4,500 dólares en 7 meses, pensé que seria imposible.
+      </p>
+      <ul className="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="far fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
                 
                 {/* <!-- Call to action section--> */}
                 <section className="cta">
