@@ -89,15 +89,61 @@ window.addEventListener('DOMContentLoaded', event => {
                     <div className="container px-5">
                         <div className="row gx-5 align-items-center">
                             <div className="col-lg-6">
+                                
                                 {/* <!-- Mashead text and app badges--> */}
                                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
-                                    <h1 className="display-1 lh-1 mb-3">Aprende a Invertir hoy Mismo!</h1>
-                                    <p className="lead fw-normal text-muted mb-5">El mejor curso de la bolsa de valores para principiantes. Deja de perder tiempo, comienza a aprender a invertir hoy mismo en la bolsa de valores.</p>
+                                    <h1 className="display-1 lh-1 mb-3">Guía definitiva para aprender invertir!</h1>
+                                    <p className="lead fw-normal text-muted mb-5">El mejor curso para aprender como invertir en la bolsa de valores. Deja de perder tiempo, comienza hoy mismo.</p>
 
-                                    <div container></div>
+
+{/*HERE IS THE COUNTDOWN/*/}
+
+                                    <div className="timer-2020 countdown d-flex text-h-white">
+<div className="d-flex flex-column align-items-center">
+    <div className="days timer-2020__number text-h-meteorite-dark wrapper   d-flex align-items-center justify-content-center">
+    <div className="value">00</div>
+</div>
+<div className="timer-2020__text pt-5 lh-1">dias</div></div>
+<div className="d-flex align-items-center mr-5 ml-5 mt-n4">
+    <span className="f-title ">:</span>
+</div>
+<div className="d-flex flex-column align-items-center">
+    <div className="hours timer-2020__number text-h-meteorite-dark wrapper   d-flex align-items-center justify-content-center">
+        <div className="value ">00</div>
+    </div>
+    <div className="timer-2020__text pt-5 lh-1 ">hours</div>
+</div>
+
+<div className="d-flex align-items-center mr-5 ml-5 mt-n4">
+    <span className="f-title">:</span>
+</div>
+
+<div className="d-flex flex-column align-items-center">
+    <div className="minutes timer-2020__number text-h-meteorite-dark wrapper   d-flex align-items-center justify-content-center">
+        <div className="value ">00</div>
+    </div>
+    <div className="timer-2020__text pt-5 lh-1 "> minutes</div>
+</div>
+<div className="d-flex align-items-center mr-5 ml-5 mt-n4">
+    <span className="f-tittle ">:</span>
+</div>
+<div className="d-flex flex-column align-items-center">
+    <div className="seconds timer-2020__number text-h-meteorite-dark wrapper   d-flex align-items-center justify-content-center">
+        <div className="value">00</div>
+    </div>
+    <div className="timer-2020__text pt-5 lh-1">seconds<div/>
+</div>
+        </div>
+
+        
+   </div>
+   
+
+   
+
 
                                     <div className="d-flex flex-column flex-lg-row align-items-center">
-                                        <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comprar Curso por 39.99</a>
+                                        <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comprar Curso por <b><s>  $94   /</s></b>   $39.99 usd</a>
                                         {/* <span className="d-flex align-items-center"> */}
 
                                         {/* <!-- <span className="small">Send Feedback</span> */}
@@ -105,6 +151,7 @@ window.addEventListener('DOMContentLoaded', event => {
                                         {/* <!-- <a href="#!"><img className="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a> --> */}
                                         {/* </span> */}
                                     </div>
+                                    <div className="letrero">Acceso de por vida 🥳</div>
                                 </div>
                             </div>
 
@@ -151,6 +198,7 @@ window.addEventListener('DOMContentLoaded', event => {
                         </div>
 
                     </div>
+
                 </header>
 
                 {/* <!-- Quote/testimonial aside--> */}
@@ -164,6 +212,261 @@ window.addEventListener('DOMContentLoaded', event => {
                         </div>
                     </div>
                 </aside>
+
+
+{/* CONTENIDO DEL CURSO */}
+
+<section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Acerca del curso</h2>
+        <div class="accordion accordion-flush" id="questions">
+          {/* Item 1 */}
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                A quién va dirigido el curso?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+              Este curso esta dirigido a personas que han comenzado a interesarse por el mundo del traiding y la bolsa de valores. Si quieres aprender a invertir o mejorar tu trading este curso es para ti.
+              </div>
+            </div>
+          </div>
+            {/* Item 2 */}
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                Tiempo de duracion del curso
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+              Este es un curso intensivo con 4 horas de duración, con el podrás aprender a invertir en el mercado de valores desde cualquier parte del mundo.
+              </div>
+            </div>
+          </div>
+            {/* Item 3 */}
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+               Qué vas a aprender con este curso?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+              Aprenderás sobre que es el mercado de valores, como comenzar tus primeras operaciones y análisis, además como controlar tus emociones con el fin de maximizar las ganancias cuando inviertes.
+              </div>
+            </div>
+          </div>
+            {/* Item 4 */}
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                Contenido del curso
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                <li><b>Introducción</b> / Sección de 8 lecciones</li>
+                <li><b>Órdenes y precios</b> / Sección de 4 lecciones</li>
+                <li><b>Recursos recomendados</b> / Sección de 3 lecciones</li>
+                <li><b>Análisis Técnico </b>/ Sección de 9 lecciones</li>
+                <li><b>Gestión de riesgo y gestión del dinero</b> / Sección de 6 lecciones</li>
+                <li><b>Psicología del trading </b>/ Sección de 6 lecciones</li>
+                <li><b>Bonus</b> (Sorpresa)</li>
+                <p>Nota:Todas las lecciones del curso están contenidas en videos, calidad 1080p. También tendrás acceso a material de apoyo y documentación usada por traders profesionales en todo el mundo.</p>
+              </div>
+            </div>
+          </div>
+           {/* Item 5 */}
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                Conocimiento previo necesario para el curso
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+              Este curso no necesita conocimiento previo, si tienes interés y te gusta el mercado de valores o tienes la necesidad de producir dinero extra, este curso es para ti. Paso a paso aprenderás todo lo que necesitas saber para invertir en la bolsa de valores guiado por tu instructor que esta disponible a responder preguntas siempre que necesites.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+
+{/* REVIEWS}*/}
+<section className="reviews">
+  <div className="row d-flex justify-content-center">
+    <div className="col-md-10 col-xl-8 text-center">
+      <h3 className="mb-4">Estudiantes egresados</h3>
+      <p className="mb-4 pb-2 mb-md-5 pb-md-0">
+      Algunos de los comentarios de nuestros estudiantes después de hacer este curso
+      </p>
+    </div>
+  </div>
+
+  <div className="row text-center">
+    <div className="col-md-4 mb-5 mb-md-0">
+      <div className="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+          className="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 className="mb-3">Maria Smantha</h5>
+      <h6 className="text-primary mb-3">Estudiante de Mercadeo</h6>
+      <p className="px-xl-3">
+        <i className="fas fa-quote-left pe-2"></i>Para mí fue increíble encontrar un curso tan completo que tiene poco tiempo, es decir lo puedes hacer en cualquier momento del día y enseñan cosas tan importantes como el libro de órdenes, luego de eso mi trading mejoro mucho.
+      </p>
+      <ul className="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star-half-alt fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div className="col-md-4 mb-5 mb-md-0">
+      <div className="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+          className="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 className="mb-3">Ana Rodiguez</h5>
+      <h6 className="text-primary mb-3">Fotografa</h6>
+      <p className="px-xl-3">
+        <i className="fas fa-quote-left pe-2"></i>Super completo, me encanta, aparte de la fotografía mi pasión durante 
+        el ultimo año ha sido aprender a invertir. Con este curso mejore bastante luego de corregir el tamaño de mis posiciones.
+      </p>
+      <ul className="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div className="col-md-4 mb-0">
+      <div className="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+          className="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 className="mb-3">Rodrigo Jimenez</h5>
+      <h6 className="text-primary mb-3">Ingeniero en Alimentos</h6>
+      <p className="px-xl-3">
+        <i className="fas fa-quote-left pe-2"></i>Bueno en pocas palabras pasé de perder 100 a doscientos 
+        dólares semanales a tener una cuenta de mas de 4,500 dólares en 7 meses, pensé que seria imposible.
+      </p>
+      <ul className="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i className="far fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+     {/* <!-- Basic features section--> */}
+     <section className="bg-light">
+                    <div className="container px-5">
+                        <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                            <div className="col-12 col-lg-5">
+                                <h2 className="display-4 lh-1 mb-4">Sobre Mi</h2>
+                                <p className="lead fw-normal text-muted mb-5 mb-lg-0">Mi nombre es Samuel Cross, Soy Ingeniero Civil e Inversionista. Recuerdo que cuando comencé a invertir en la bolsa de valores, no encontraba información organizada y eso me llevó a tener perdidas innecesarias, luego de años de experiencia e inversiones exitosas, decidí compartir la información organizada para personas que quieren aprender del mercado y tener éxito. </p>
+                            </div>
+                            <div className="col-12 col-lg-5">
+                                <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between"><img className="img-fluid" src="DSC01152.png" style={{ maxWidth: "1200px", height: "150%" }} alt="..." /></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
                 {/* <!-- App features section--> */}
                 <section id="features">
                     <div className="container px-5">
@@ -253,20 +556,10 @@ window.addEventListener('DOMContentLoaded', event => {
                         </div>
                     </div>
                 </section>
-                {/* <!-- Basic features section--> */}
-                <section className="bg-light">
-                    <div className="container px-5">
-                        <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-                            <div className="col-12 col-lg-5">
-                                <h2 className="display-4 lh-1 mb-4">Sobre Mi</h2>
-                                <p className="lead fw-normal text-muted mb-5 mb-lg-0">Mi nombre es Samuel Cross, Soy Ingeniero Civil e Inversionista. Recuerdo que cuando comencé a invertir en la bolsa de valores, no encontraba información organizada y eso me llevó a tener perdidas innecesarias, luego de años de experiencia e inversiones exitosas, decidí compartir la información organizada para personas que quieren aprender del mercado y tener éxito. </p>
-                            </div>
-                            <div className="col-12 col-lg-5">
-                                <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between"><img className="img-fluid" src="DSC01152.png" style={{ maxWidth: "1200px", height: "150%" }} alt="..." /></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
+
+           
+                
                 {/* <!-- Call to action section--> */}
                 <section className="cta">
                     <div className="cta-content">
@@ -276,7 +569,7 @@ window.addEventListener('DOMContentLoaded', event => {
                                 <br />
                                 Comienza ahora!.
                             </h2>
-                            <a className="btn btn-outline-light py-3 px-4 rounded-pill" href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" target="_blank" rel="noreferrer">Comprar curso por 39.99</a>
+                            <a className="btn btn-outline-light py-3 px-4 rounded-pill" href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" target="_blank" rel="noreferrer">Comprar curso por $39.99 usd</a>
                         </div>
                     </div>
                 </section>

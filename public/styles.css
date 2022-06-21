@@ -3609,6 +3609,7 @@ textarea.form-control-lg {
     left: auto;
   }
 
+  
   /* .video {
     display: none;
 
@@ -7843,7 +7844,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #E9E9E9;
 }
 
 .bg-dark {
@@ -11412,8 +11413,8 @@ section {
 
 section.cta {
   position: relative;
-  padding: 15rem 0;
-  background-image: url("../assets/img/imagen\ de\ fondo.jpg");
+  padding: 10rem 0;
+  background-color: var(--bs-secondary);
   background-position: left;
   background-size: cover;
 }
@@ -11548,14 +11549,75 @@ footer a:hover, footer a:active, footer a:focus {
 background: linear-gradient(164deg, rgba(173,255,242,1) 0%, rgba(20,241,149,1) 100%);
   padding-top: 9.5rem;
   padding-bottom: 5rem;
+
  
 }
+
+
 .masthead .masthead-device-mockup {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
+/*TIMER STYLE */
+
+.timer-2020 {
+  padding-bottom: 20px;
+}
+.timer-2020 .wrapper {
+  background: #fff;
+  min-width: 54px;
+  min-height: 54px;
+  border-radius: 9px;
+
+}
+
+.timer-2020__number {
+  font-size: 25px;
+}
+
+.timer-2020__text {
+  font-size: 1.2rem;
+  font-size: 10px;
+}
+
+.pt-5 {
+  padding-top: 5px!important;
+}
+
+.lh-1 {
+  line-height: 1!important;
+}
+
+/* span.f-tittle {
+  padding-left: 3px;
+  padding-right: 3px;
+}  */
+
+/* div .d-flex {
+  background: #0dcaf0;
+} */
+
+.mr-5 {
+  margin-right: 5px!important;
+  margin-left: 5px!important;
+}
+
+.mt-n4 {
+  margin-top: -1rem!important;
+}
+
+.letrero {
+  padding-top: 5px;
+  
+ 
+}
+
+.reviews {
+  background-color: #fff ;
+}
+
 .masthead .masthead-device-mockup .circle {
   position: absolute;
   fill: url(#circleGradient);
@@ -11595,6 +11657,8 @@ background: linear-gradient(164deg, rgba(173,255,242,1) 0%, rgba(20,241,149,1) 1
     display: block;
     
   }
+
+  
 
   /* .masthead .col-lg-6 .masthead-device-mockup {
    width: 370px;
@@ -11660,5 +11724,5 @@ background: linear-gradient(164deg, rgba(173,255,242,1) 0%, rgba(20,241,149,1) 1
   }
   /* .masthead {
     background-color: #fff;
-  } */
+  }  */
 }
