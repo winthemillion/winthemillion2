@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, createRef } from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
+import { NextSeo } from 'next-seo';
 
 import Countdown, { zeroPad, calcTimeDelta, formatTimeDelta } from 'react-countdown';
 
@@ -53,6 +54,16 @@ export default function Home() {
 
   return (
     <>
+      <NextSeo
+        type='website'
+        locale='es_DO'
+        url='https://winthemillion.com/'
+        site_name='Winthemillion'
+        description='Si quieres aprender a hacer trading y no sabes como comenzar, si ya comenzaste y no comprendes mucho o si te abruma la cantidad de información que encuentras desorganizada.'
+        title='Fundamentos de Trading'
+        canonical="https://winthemillion.com/"
+        logo="http://www.winthemillion.com/logo.png"
+      />
 
       <Head>
         <meta charset="utf-8" />
@@ -415,7 +426,7 @@ window.addEventListener('DOMContentLoaded', event => {
                 <p className="lead fw-normal text-muted mb-5 mb-lg-0">Mi nombre es Samuel Cross, Soy Ingeniero Civil e Inversionista. Recuerdo que cuando comencé a invertir en la bolsa de valores, no encontraba información organizada y eso me llevó a tener perdidas innecesarias, luego de años de experiencia e inversiones exitosas, decidí compartir la información organizada para personas que quieren aprender del mercado y tener éxito. </p>
               </div>
               <div className="col-12 col-lg-5">
-                <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between"><img className="img-fluid" src="DSC01152.png" style={{ maxWidth: "1200px", height: "150%" }} alt="..." /></div>
+                <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between"><img className="img-fluid" src="DSC011522.png" style={{ maxWidth: "1200px", height: "150%" }} alt="..." /></div>
               </div>
             </div>
           </div>
