@@ -65,12 +65,12 @@ window.addEventListener('DOMContentLoaded', event => {
                     <div className="container px-5">
                         <a className="navbar-brand fw-bold" href="#page-top">WinThe<span>Million</span></a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                            Menu
+                            
                             <i className="bi-list"></i>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                                <li className="nav-item"><a className="nav-link me-lg-3" href="https://www.instagram.com/samcrossr/">Contactos</a></li>
+                                <li className="nav-item"><a className="nav-link me-lg-3" href="https://www.instagram.com/samcrossr/">Contáctos</a></li>
                                 <li className="nav-item"><a className="nav-link me-lg-3" href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20">Comprar Curso</a></li>
                             </ul>
                             {/* <!-- <button className="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal"> */}
@@ -92,8 +92,8 @@ window.addEventListener('DOMContentLoaded', event => {
                                 
                                 {/* <!-- Mashead text and app badges--> */}
                                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
-                                    <h1 className="display-1 lh-1 mb-3">Guía definitiva para aprender invertir!</h1>
-                                    <p className="lead fw-normal text-muted mb-5">El mejor curso para aprender como invertir en la bolsa de valores. Deja de perder tiempo, comienza hoy mismo.</p>
+                                    <h1 className="display-1 lh-1 mb-3">Guía definitiva para aprender a invertir!</h1>
+                                    <p className="lead fw-normal text-muted mb-5">El mejor curso para aprender cómo invertir en la bolsa de valores. Deja de perder tiempo, comienza hoy mismo.</p>
 
 
 {/*HERE IS THE COUNTDOWN/*/}
@@ -103,7 +103,7 @@ window.addEventListener('DOMContentLoaded', event => {
     <div className="days timer-2020__number text-h-meteorite-dark wrapper   d-flex align-items-center justify-content-center">
     <div className="value">00</div>
 </div>
-<div className="timer-2020__text pt-5 lh-1">dias</div></div>
+<div className="timer-2020__text pt-5 lh-1">días</div></div>
 <div className="d-flex align-items-center mr-5 ml-5 mt-n4">
     <span className="f-title ">:</span>
 </div>
@@ -111,7 +111,7 @@ window.addEventListener('DOMContentLoaded', event => {
     <div className="hours timer-2020__number text-h-meteorite-dark wrapper   d-flex align-items-center justify-content-center">
         <div className="value ">00</div>
     </div>
-    <div className="timer-2020__text pt-5 lh-1 ">hours</div>
+    <div className="timer-2020__text pt-5 lh-1 ">horas</div>
 </div>
 
 <div className="d-flex align-items-center mr-5 ml-5 mt-n4">
@@ -122,7 +122,7 @@ window.addEventListener('DOMContentLoaded', event => {
     <div className="minutes timer-2020__number text-h-meteorite-dark wrapper   d-flex align-items-center justify-content-center">
         <div className="value ">00</div>
     </div>
-    <div className="timer-2020__text pt-5 lh-1 "> minutes</div>
+    <div className="timer-2020__text pt-5 lh-1 "> minutos</div>
 </div>
 <div className="d-flex align-items-center mr-5 ml-5 mt-n4">
     <span className="f-tittle ">:</span>
@@ -131,7 +131,7 @@ window.addEventListener('DOMContentLoaded', event => {
     <div className="seconds timer-2020__number text-h-meteorite-dark wrapper   d-flex align-items-center justify-content-center">
         <div className="value">00</div>
     </div>
-    <div className="timer-2020__text pt-5 lh-1">seconds<div/>
+    <div className="timer-2020__text pt-5 lh-1">segundos<div/>
 </div>
         </div>
 
@@ -238,7 +238,7 @@ window.addEventListener('DOMContentLoaded', event => {
               data-bs-parent="#questions"
             >
               <div className="accordion-body">
-              Este curso esta dirigido a personas que han comenzado a interesarse por el mundo del traiding y la bolsa de valores. Si quieres aprender a invertir o mejorar tu trading este curso es para ti.
+              Este curso está dirigido a personas que han comenzado a interesarse por el mundo del traiding y la bolsa de valores. Si quieres aprender a invertir o mejorar tu trading este curso es para ti.
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ window.addEventListener('DOMContentLoaded', event => {
                 data-bs-toggle="collapse"
                 data-bs-target="#question-two"
               >
-                Tiempo de duracion del curso
+                Tiempo de duración del curso
               </button>
             </h2>
             <div
@@ -260,7 +260,7 @@ window.addEventListener('DOMContentLoaded', event => {
               data-bs-parent="#questions"
             >
               <div className="accordion-body">
-              Este es un curso intensivo con 4 horas de duración, con el podrás aprender a invertir en el mercado de valores desde cualquier parte del mundo.
+              Este es un curso intensivo con 4 horas de duración, con él podrás aprender a invertir en el mercado de valores desde cualquier parte del mundo.
               </div>
             </div>
           </div>
@@ -282,7 +282,7 @@ window.addEventListener('DOMContentLoaded', event => {
               data-bs-parent="#questions"
             >
               <div className="accordion-body">
-              Aprenderás sobre que es el mercado de valores, como comenzar tus primeras operaciones y análisis, además como controlar tus emociones con el fin de maximizar las ganancias cuando inviertes.
+              Aprenderás sobre lo que es el mercado de valores, como comenzar tus primeras operaciones y análisis, además como controlar tus emociones con el fin de maximizar las ganancias cuando inviertes.
               </div>
             </div>
           </div>
@@ -460,42 +460,45 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
            {/* REVIEWS}*/}
-<section className="reviews">
-  <div className="row d-flex justify-content-center">
+           
+<section className="container reviews bg-light">
+  <div className="d-flex justify-content-center">
     <div className="col-md-10 col-xl-8 text-center">
       <h3 className="mb-4">Estudiantes egresados</h3>
       <p className="mb-4 pb-2 mb-md-5 pb-md-0">
-      Algunos de los comentarios de nuestros estudiantes después de hacer este curso
+      Algunos de los comentarios de nuestros estudiantes después de hacer este curso.
       </p>
     </div>
-  </div>
+  </div> 
+  
 
   <div className="row text-center">
-    <div className="col-md-4 mb-5 mb-md-0">
+    <div className="col-md-3 mb-5 mb-md-0">
       <div className="d-flex justify-content-center mb-4">
         <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
           className="rounded-circle shadow-1-strong" width="150" height="150" />
       </div>
-      <h5 className="mb-3">Maria Smantha</h5>
+      <h5 className="col-mb-3">Maria Smantha</h5>
       <h6 className="text-primary mb-3">Estudiante de Mercadeo</h6>
       <p className="px-xl-3">
         <i className="fas fa-quote-left pe-2"></i>Para mí fue increíble encontrar un curso tan completo que tiene poco tiempo, es decir lo puedes hacer en cualquier momento del día y enseñan cosas tan importantes como el libro de órdenes, luego de eso mi trading mejoro mucho.
       </p>
       <ul className="list-unstyled d-flex justify-content-center mb-0">
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐
+        </i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star-half-alt fa-sm text-warning"></i>
+          <i className="fas fa-star-half-alt fa-sm text-warning">⭐</i>
         </li>
       </ul>
     </div>
@@ -512,19 +515,19 @@ window.addEventListener('DOMContentLoaded', event => {
       </p>
       <ul className="list-unstyled d-flex justify-content-center mb-0">
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
       </ul>
     </div>
@@ -541,19 +544,19 @@ window.addEventListener('DOMContentLoaded', event => {
       </p>
       <ul className="list-unstyled d-flex justify-content-center mb-0">
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="fas fa-star fa-sm text-warning"></i>
+          <i className="fas fa-star fa-sm text-warning">⭐</i>
         </li>
         <li>
-          <i className="far fa-star fa-sm text-warning"></i>
+          <i className="far fa-star fa-sm text-warning">⭐</i>
         </li>
       </ul>
     </div>
@@ -565,7 +568,7 @@ window.addEventListener('DOMContentLoaded', event => {
                     <div className="cta-content">
                         <div className="container px-5">
                             <h2 className="text-white display-1 lh-1 mb-4">
-                                El mejor contenido en tus manos.
+                            Posibilidades infinitas Invirtiendo en la Bolsa
                                 <br />
                                 Comienza ahora!.
                             </h2>
