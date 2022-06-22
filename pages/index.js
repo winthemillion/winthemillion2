@@ -216,15 +216,15 @@ window.addEventListener('DOMContentLoaded', event => {
 
 {/* CONTENIDO DEL CURSO */}
 
-<section id="questions" class="p-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Acerca del curso</h2>
-        <div class="accordion accordion-flush" id="questions">
+<section id="questions" className="p-5">
+      <div className="container">
+        <h2 className="text-center mb-4">Acerca del curso</h2>
+        <div className="accordion accordion-flush" id="questions">
           {/* Item 1 */}
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#question-one"
@@ -234,19 +234,19 @@ window.addEventListener('DOMContentLoaded', event => {
             </h2>
             <div
               id="question-one"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#questions"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
               Este curso esta dirigido a personas que han comenzado a interesarse por el mundo del traiding y la bolsa de valores. Si quieres aprender a invertir o mejorar tu trading este curso es para ti.
               </div>
             </div>
           </div>
             {/* Item 2 */}
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#question-two"
@@ -256,19 +256,19 @@ window.addEventListener('DOMContentLoaded', event => {
             </h2>
             <div
               id="question-two"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#questions"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
               Este es un curso intensivo con 4 horas de duración, con el podrás aprender a invertir en el mercado de valores desde cualquier parte del mundo.
               </div>
             </div>
           </div>
             {/* Item 3 */}
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#question-three"
@@ -278,19 +278,19 @@ window.addEventListener('DOMContentLoaded', event => {
             </h2>
             <div
               id="question-three"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#questions"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
               Aprenderás sobre que es el mercado de valores, como comenzar tus primeras operaciones y análisis, además como controlar tus emociones con el fin de maximizar las ganancias cuando inviertes.
               </div>
             </div>
           </div>
             {/* Item 4 */}
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#question-four"
@@ -300,10 +300,10 @@ window.addEventListener('DOMContentLoaded', event => {
             </h2>
             <div
               id="question-four"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#questions"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 <li><b>Introducción</b> / Sección de 8 lecciones</li>
                 <li><b>Órdenes y precios</b> / Sección de 4 lecciones</li>
                 <li><b>Recursos recomendados</b> / Sección de 3 lecciones</li>
@@ -316,10 +316,10 @@ window.addEventListener('DOMContentLoaded', event => {
             </div>
           </div>
            {/* Item 5 */}
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#question-five"
@@ -329,10 +329,10 @@ window.addEventListener('DOMContentLoaded', event => {
             </h2>
             <div
               id="question-five"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#questions"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
               Este curso no necesita conocimiento previo, si tienes interés y te gusta el mercado de valores o tienes la necesidad de producir dinero extra, este curso es para ti. Paso a paso aprenderás todo lo que necesitas saber para invertir en la bolsa de valores guiado por tu instructor que esta disponible a responder preguntas siempre que necesites.
               </div>
             </div>
