@@ -515,7 +515,7 @@ window.addEventListener('DOMContentLoaded', event => {
                         {/* <!-- * * 100% like the demo example below.--> */}
                         {/*  style={{maxWidth:"100%", height: "150%"}} */}
                         <video style={{ maxWidth: "100%", height: "100%" }} loop autoPlay muted>
-                          <source src="demo-screen.mp4" type="video/mp4" />
+                          <source src="Sequence 02.mp4" type="video/mp4" />
                         </video>
                       </div>
                     </div>
