@@ -209,8 +209,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 
-                            
-                        </div>
 
                   <div className="d-flex flex-column flex-lg-row align-items-center">
                     <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comprar Curso por <b><s>  $94   /</s></b>   $39.99 usd</a>
@@ -228,8 +226,8 @@ window.addEventListener('DOMContentLoaded', event => {
               <div className="col-lg-6">
                 {/* <!-- Masthead device mockup feature--> */}
                 <div className="masthead-device-mockup">
-                  <video style={{ maxWidth: "100%", height: "150%" }} autoPlay loop>
-                    <source src="demo-screen.mp4" type="video/mp4" />
+                  <video style={{ maxWidth: "100%", height: "150%" }} autoPlay loop controls>
+                    <source src="video para pagina.mp4" type="video/mp4" />
                   </video>
 
                   {/* <!-- <svg className="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"> --> */}
@@ -741,6 +739,5 @@ window.addEventListener('DOMContentLoaded', event => {
     </>
   )
 }
-
 
 
