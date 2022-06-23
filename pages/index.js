@@ -226,7 +226,7 @@ window.addEventListener('DOMContentLoaded', event => {
               <div className="col-lg-6">
                 {/* <!-- Masthead device mockup feature--> */}
                 <div className="masthead-device-mockup">
-                  <video style={{ maxWidth: "100%", height: "150%" }} autoPlay loop controls>
+                  <video style={{ maxWidth: "100%", height: "150%" }} autoPlay loop controls controlsList="nodownload">
                     <source src="video para pagina.mp4" type="video/mp4" />
                   </video>
 
@@ -372,13 +372,13 @@ window.addEventListener('DOMContentLoaded', event => {
                   data-bs-parent="#questions"
                 >
                   <div className="accordion-body">
-                    <li><b>Introducción</b> / Sección de 8 lecciones</li>
-                    <li><b>Órdenes y precios</b> / Sección de 4 lecciones</li>
-                    <li><b>Recursos recomendados</b> / Sección de 3 lecciones</li>
-                    <li><b>Análisis Técnico </b>/ Sección de 9 lecciones</li>
-                    <li><b>Gestión de riesgo y gestión del dinero</b> / Sección de 6 lecciones</li>
-                    <li><b>Psicología del trading </b>/ Sección de 6 lecciones</li>
-                    <li><b>Bonus</b> (Sorpresa)</li>
+                    <li><b>Introducción</b> / Sección de 8 lecciones.</li>
+                    <li><b>Órdenes y precios</b> / Sección de 4 lecciones.</li>
+                    <li><b>Recursos recomendados</b> / Sección de 3 lecciones.</li>
+                    <li><b>Análisis Técnico </b>/ Sección de 9 lecciones.</li>
+                    <li><b>Gestión de riesgo y gestión del dinero</b> / Sección de 6 lecciones.</li>
+                    <li><b>Psicología del trading </b>/ Sección de 6 lecciones.</li>
+                    <li><b>Bonus</b> (Sorpresa).</li>
                     <p>Nota:Todas las lecciones del curso están contenidas en videos, calidad 1080p. También tendrás acceso a material de apoyo y documentación usada por traders profesionales en todo el mundo.</p>
                   </div>
                 </div>
@@ -546,10 +546,10 @@ window.addEventListener('DOMContentLoaded', event => {
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
                   className="rounded-circle shadow-1-strong" width="150" height="150" />
               </div>
-              <h5 className="col-mb-3">Maria Smantha</h5>
+              <h5 className="col-mb-3">María Samantha</h5>
               <h6 className="text-primary mb-3">Estudiante de Mercadeo</h6>
               <p className="px-xl-3">
-                <i className="fas fa-quote-left pe-2"></i>Para mí fue increíble encontrar un curso tan completo que tiene poco tiempo, es decir lo puedes hacer en cualquier momento del día y enseñan cosas tan importantes como el libro de órdenes, luego de eso mi trading mejoro mucho.
+                <i className="fas fa-quote-left pe-2"></i>Para mí fue increíble encontrar un curso tan completo que tiene poco tiempo, es decir lo puedes hacer en cualquier momento del día y enseñan cosas tan importantes como el libro de órdenes, luego de eso mi trading mejoró mucho.
               </p>
               <ul className="list-unstyled d-flex justify-content-center mb-0">
                 <li>
@@ -575,11 +575,11 @@ window.addEventListener('DOMContentLoaded', event => {
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
                   className="rounded-circle shadow-1-strong" width="150" height="150" />
               </div>
-              <h5 className="mb-3">Ana Rodiguez</h5>
-              <h6 className="text-primary mb-3">Fotografa</h6>
+              <h5 className="mb-3">Ana Rodríguez</h5>
+              <h6 className="text-primary mb-3">Fotógrafa</h6>
               <p className="px-xl-3">
-                <i className="fas fa-quote-left pe-2"></i>Super completo, me encanta, aparte de la fotografía mi pasión durante
-                el ultimo año ha sido aprender a invertir. Con este curso mejore bastante luego de corregir el tamaño de mis posiciones.
+                <i className="fas fa-quote-left pe-2"></i>Súper completo, me encanta, aparte de la fotografía mi pasión durante
+                el último año ha sido aprender a invertir. Con este curso mejoré bastante luego de corregir el tamaño de mis posiciones.
               </p>
               <ul className="list-unstyled d-flex justify-content-center mb-0">
                 <li>
@@ -604,11 +604,11 @@ window.addEventListener('DOMContentLoaded', event => {
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
                   className="rounded-circle shadow-1-strong" width="150" height="150" />
               </div>
-              <h5 className="mb-3">Rodrigo Jimenez</h5>
+              <h5 className="mb-3">Rodrigo Jiménez</h5>
               <h6 className="text-primary mb-3">Ingeniero en Alimentos</h6>
               <p className="px-xl-3">
-                <i className="fas fa-quote-left pe-2"></i>Bueno en pocas palabras pasé de perder 100 a doscientos
-                dólares semanales a tener una cuenta de mas de 4,500 dólares en 7 meses, pensé que seria imposible.
+                <i className="fas fa-quote-left pe-2"></i>Bueno en pocas palabras pasé de perder 100 o 200 
+                     dólares semanales a tener una cuenta de mas de 4,500 dólares en 7 meses, pensé que seria imposible.
               </p>
               <ul className="list-unstyled d-flex justify-content-center mb-0">
                 <li>
@@ -636,7 +636,7 @@ window.addEventListener('DOMContentLoaded', event => {
           <div className="cta-content">
             <div className="container px-5">
               <h2 className="text-white display-1 lh-1 mb-4">
-                Posibilidades infinitas Invirtiendo en la Bolsa
+                Posibilidades infinitas al aprender a Invertir.
                 <br />
                 Comienza ahora!.
               </h2>
