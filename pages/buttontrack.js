@@ -214,7 +214,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
                   <div className="d-flex flex-column flex-lg-row align-items-center">
-                    <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Pagar ahora <i class="bi bi-cart"></i></a>
+                    <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Pagar ahora <i className="bi bi-cart"></i></a>
                     
                                  {/* <span className="d-flex align-items-center"> */}
 
