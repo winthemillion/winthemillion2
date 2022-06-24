@@ -223,7 +223,7 @@ window.addEventListener('DOMContentLoaded', event => {
                     {/* <!-- <a href="#!"><img className="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a> --> */}
                     {/* </span> */}
                   </div>
-                  <div className="letrero">Acceso de por vida 🥳</div>
+                  <div className="letrero">Acceso de por vida. 🥳</div>
                 </div>
               </div>
 
