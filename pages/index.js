@@ -638,6 +638,7 @@ window.addEventListener('DOMContentLoaded', event => {
         </section>*/}
 
         {/* <!-- Call to action section--> */}
+
         <section className="cta">
           <div className="cta-content">
             <div className="container px-5">
@@ -648,7 +649,7 @@ window.addEventListener('DOMContentLoaded', event => {
               </h2>
               <Link href="/buttontrack">
               <a className="btn btn-outline-light py-3 px-4 rounded-pill">Comprar curso por $39.99 usd</a>
-            </Link>>
+            </Link>
             </div>
           </div>
         </section> 
@@ -663,6 +664,7 @@ window.addEventListener('DOMContentLoaded', event => {
                 </div>
             </div>
          </section> --> */}
+
         {/* <!-- Footer--> */}
         <footer className="bg-black text-center py-5">
           <div className="container px-5">
