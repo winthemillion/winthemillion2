@@ -133,7 +133,7 @@ window.addEventListener('DOMContentLoaded', event => {
               <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
                 <li className="nav-item"><a className="nav-link me-lg-3" href="https://www.instagram.com/samcrossr/">Contáctos</a></li>
                 <Link href="/buttontrack">
-                <li className="nav-item"><a className="nav-link me-lg-3" >Comprar Curso</a></li>
+                  <li className="nav-item"><a className="nav-link me-lg-3" >Comprar Curso</a></li>
                 </Link>
               </ul>
               {/* <!-- <button className="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal"> */}
@@ -215,8 +215,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
                   <div className="d-flex flex-column flex-lg-row align-items-center">
                     <Link href="/buttontrack">
-                    <a className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comprar Curso por <b><s>  $94   /</s></b>   $39.99 usd</a>
-                    
+                      <a className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comprar Curso por <b><s>  $94   /</s></b>   $39.99 usd</a>
+
                     </Link>
                     {/* <span className="d-flex align-items-center"> */}
 
@@ -272,20 +272,6 @@ window.addEventListener('DOMContentLoaded', event => {
             </div>
 
           </div>
-
-          
-
-{/*<!-- Global site tag (gtag.js) - Google Analytics -->*/}
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-231541258-1">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag()dataLayer.push(arguments);
-  gtag('js', new Date());
-
-  gtag('config', 'UA-231541258-1');
-</script>
-
         </header>
 
         {/* <!-- Quote/testimonial aside--> */}
@@ -661,11 +647,11 @@ window.addEventListener('DOMContentLoaded', event => {
                 Comienza ahora!.
               </h2>
               <Link href="/buttontrack">
-              <a className="btn btn-outline-light py-3 px-4 rounded-pill">Comprar curso por $39.99 usd</a>
-            </Link>
+                <a className="btn btn-outline-light py-3 px-4 rounded-pill">Comprar curso por $39.99 usd</a>
+              </Link>
             </div>
           </div>
-        </section> 
+        </section>
 
         {/* <!-- App badge section--> */}
         {/* <!-- <section className="bg-gradient-primary-to-secondary" id="download"> 

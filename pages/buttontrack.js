@@ -125,7 +125,7 @@ window.addEventListener('DOMContentLoaded', event => {
         <nav className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
           <div className="container px-5">
             <Link href="/">
-            <a className="navbar-brand fw-bold">WinThe<span>Million</span></a>
+              <a className="navbar-brand fw-bold">WinThe<span>Million</span></a>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -215,8 +215,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
                   <div className="d-flex flex-column flex-lg-row align-items-center">
                     <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Pagar ahora <i className="bi bi-cart"></i></a>
-                    
-                                 {/* <span className="d-flex align-items-center"> */}
+
+                    {/* <span className="d-flex align-items-center"> */}
 
                     {/* <!-- <span className="small">Send Feedback</span> */}
                     {/* <a className="me-lg-3 mb-4 mb-lg-0" href="#!"><img className="app-badge" src="google-play-badge.svg" alt="..." /></a> */}
@@ -231,7 +231,7 @@ window.addEventListener('DOMContentLoaded', event => {
                 {/* <!-- Masthead device mockup feature--> */}
                 <div className="img-portada">
                   {/* <video style={{ maxWidth: "100%", height: "150%" }} > */}
-                    <img style={{ maxWidth: "110%", width: "700px" }} src="pagina-portada.png" />
+                  <img style={{ maxWidth: "110%", width: "700px" }} src="pagina-portada.png" />
                   {/* </video> */}
 
                   {/* <!-- <svg className="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"> --> */}
@@ -273,8 +273,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
         </header>
 
-       
-        
+
+
         {/* <!-- Footer--> */}
         <footer className="bg-black text-center py-5">
           <div className="container px-5">
