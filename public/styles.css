@@ -11556,6 +11556,17 @@ background: linear-gradient(164deg, rgba(173,255,242,1) 0%, rgba(20,241,149,1) 1
 
  
 }
+.masthead-2 {
+  background: rgb(173,255,242);
+  background-image: radial-gradient(circle at 50% -3.03%, #e3ffff 0, #cdffff 25%, #b5f0ff 50%, #9de0f3 75%, #86d2e9 100%);
+  padding-top: 9.5rem;
+  padding-bottom: 5rem;
+
+ 
+}
+.img-portada {
+  /* display: none; */
+}
 
 
 .masthead .masthead-device-mockup {

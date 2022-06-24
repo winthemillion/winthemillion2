@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, createRef } from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
 import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
 import Countdown, { zeroPad, calcTimeDelta, formatTimeDelta } from 'react-countdown';
 
@@ -131,7 +132,9 @@ window.addEventListener('DOMContentLoaded', event => {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
                 <li className="nav-item"><a className="nav-link me-lg-3" href="https://www.instagram.com/samcrossr/">Contáctos</a></li>
-                <li className="nav-item"><a className="nav-link me-lg-3" href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20">Comprar Curso</a></li>
+                <Link href="/buttontrack">
+                <li className="nav-item"><a className="nav-link me-lg-3" >Comprar Curso</a></li>
+                </Link>
               </ul>
               {/* <!-- <button className="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal"> */}
               {/* <span className="d-flex align-items-center"> */}
@@ -160,7 +163,7 @@ window.addEventListener('DOMContentLoaded', event => {
                     // date={Date.now() + 259200000}
                     //  date={1655959589000}
                     // TERMINA EL JUEVES A LAS 11:59:59
-                    date={1656043199000}
+                    date={1656541575000}
                     renderer={renderer}
                   />
 
@@ -211,7 +214,10 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
                   <div className="d-flex flex-column flex-lg-row align-items-center">
-                    <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comprar Curso por <b><s>  $94   /</s></b>   $39.99 usd</a>
+                    <Link href="/buttontrack">
+                    <a className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comprar Curso por <b><s>  $94   /</s></b>   $39.99 usd</a>
+                    
+                    </Link>
                     {/* <span className="d-flex align-items-center"> */}
 
                     {/* <!-- <span className="small">Send Feedback</span> */}
@@ -226,7 +232,7 @@ window.addEventListener('DOMContentLoaded', event => {
               <div className="col-lg-6">
                 {/* <!-- Masthead device mockup feature--> */}
                 <div className="masthead-device-mockup">
-                  <video style={{ maxWidth: "100%", height: "150%" }} autoPlay loop controls controlsList="nodownload">
+                  <video style={{ maxWidth: "100%", height: "150%" }} autoPlay controls controlsList="nodownload" poster="path-1.jpg">
                     <source src="video para pagina.mp4" type="video/mp4" />
                   </video>
 
@@ -514,7 +520,7 @@ window.addEventListener('DOMContentLoaded', event => {
                         {/* <!-- * * Set the max width of your media to 100% and the height to--> */}
                         {/* <!-- * * 100% like the demo example below.--> */}
                         {/*  style={{maxWidth:"100%", height: "150%"}} */}
-                        <video style={{ maxWidth: "100%", height: "100%" }} loop autoPlay muted>
+                        <video style={{ maxWidth: "100%", height: "100%" }} loop autoPlay muted poster="path-2.jpg">
                           <source src="Sequence 02.mp4" type="video/mp4" />
                         </video>
                       </div>
@@ -529,7 +535,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
         {/* REVIEWS}*/}
 
-        <section className="container reviews bg-light">
+        {/* <section className="container reviews bg-light">
           <div className="d-flex justify-content-center">
             <div className="col-md-10 col-xl-8 text-center">
               <h3 className="mb-4">Estudiantes egresados</h3>
@@ -631,7 +637,7 @@ window.addEventListener('DOMContentLoaded', event => {
           </div>
         </section>
 
-        {/* <!-- Call to action section--> */}
+        {/* <!-- Call to action section--> *
         <section className="cta">
           <div className="cta-content">
             <div className="container px-5">
@@ -643,7 +649,7 @@ window.addEventListener('DOMContentLoaded', event => {
               <a className="btn btn-outline-light py-3 px-4 rounded-pill" href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" target="_blank" rel="noreferrer">Comprar curso por $39.99 usd</a>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* <!-- App badge section--> */}
         {/* <!-- <section className="bg-gradient-primary-to-secondary" id="download"> 
