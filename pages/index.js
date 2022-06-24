@@ -635,9 +635,9 @@ window.addEventListener('DOMContentLoaded', event => {
               </ul>
             </div>
           </div>
-        </section>
+        </section>*/}
 
-        {/* <!-- Call to action section--> *
+        {/* <!-- Call to action section--> */}
         <section className="cta">
           <div className="cta-content">
             <div className="container px-5">
@@ -646,10 +646,12 @@ window.addEventListener('DOMContentLoaded', event => {
                 <br />
                 Comienza ahora!.
               </h2>
-              <a className="btn btn-outline-light py-3 px-4 rounded-pill" href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" target="_blank" rel="noreferrer">Comprar curso por $39.99 usd</a>
+              <Link href="/buttontrack">
+              <a className="btn btn-outline-light py-3 px-4 rounded-pill">Comprar curso por $39.99 usd</a>
+            </Link>>
             </div>
           </div>
-        </section> */}
+        </section> 
 
         {/* <!-- App badge section--> */}
         {/* <!-- <section className="bg-gradient-primary-to-secondary" id="download"> 
