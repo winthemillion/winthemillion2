@@ -155,15 +155,17 @@ window.addEventListener('DOMContentLoaded', event => {
 
                 {/* <!-- Mashead text and app badges--> */}
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
-                  <h1 className="display-1 lh-1 mb-3">Invertir es crear un buen futuro!</h1>
-                  <p className="lead fw-normal text-muted mb-5">Bienvenido al primer día del resto de tu vida, invirtiendo como un profesional.</p>
+                  <h1 className="display-1 lh-1 mb-3">Fundamentos del Trading</h1>
+                  <p className="lead fw-normal text-muted mb-5">Fundamentos del mercado de valores
+En este curo aprenderás a hacer operaciones en la bolsa de valores, análisis técnico fundamental, gráficos y velas, daytrading+++
+</p>
 
                   < Countdown
                     // cantidad de horas que va a estar corriendo el reloj 3 dias en milisengundos
                     // date={Date.now() + 259200000}
                     //  date={1655959589000}
                     // TERMINA EL JUEVES A LAS 11:59:59
-                    date={1656541575000}
+                    date={1657065600000}
                     renderer={renderer}
                   />
 
@@ -214,7 +216,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
                   <div className="d-flex flex-column flex-lg-row align-items-center">
-                    <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Pagar ahora <i className="bi bi-cart"></i></a>
+                    <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comenzar curso <i className="bi bi-cart"></i></a>
 
                     {/* <span className="d-flex align-items-center"> */}
 
@@ -231,7 +233,7 @@ window.addEventListener('DOMContentLoaded', event => {
                 {/* <!-- Masthead device mockup feature--> */}
                 <div className="img-portada">
                   {/* <video style={{ maxWidth: "100%", height: "150%" }} > */}
-                  <img style={{ maxWidth: "110%", width: "700px" }} src="pagina-portada.png" />
+                  <img style={{ maxWidth: "130%", width: "700px" }} src="pagina-portada.png" />
                   {/* </video> */}
 
                   {/* <!-- <svg className="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"> --> */}

@@ -163,7 +163,7 @@ window.addEventListener('DOMContentLoaded', event => {
                     // date={Date.now() + 259200000}
                     //  date={1655959589000}
                     // TERMINA EL JUEVES A LAS 11:59:59
-                    date={1656541575000}
+                    date={1657065600000}
                     renderer={renderer}
                   />
 
@@ -215,7 +215,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
                   <div className="d-flex flex-column flex-lg-row align-items-center">
                     <Link href="/buttontrack">
-                      <a className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comprar Curso por <b><s>  $94   /</s></b>   $39.99 usd</a>
+                      <a className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comprar Curso por <b><s>  $94   /</s></b>   $9.99 usd</a>
 
                     </Link>
                     {/* <span className="d-flex align-items-center"> */}
@@ -647,7 +647,7 @@ window.addEventListener('DOMContentLoaded', event => {
                 Comienza ahora!.
               </h2>
               <Link href="/buttontrack">
-                <a className="btn btn-outline-light py-3 px-4 rounded-pill">Comprar curso por $39.99 usd</a>
+                <a className="btn btn-outline-light py-3 px-4 rounded-pill">Comprar curso por $9.99 usd</a>
               </Link>
             </div>
           </div>
