@@ -165,7 +165,7 @@ En este curo aprenderás a hacer operaciones en la bolsa de valores, análisis t
                     // date={Date.now() + 259200000}
                     //  date={1655959589000}
                     // TERMINA EL JUEVES A LAS 11:59:59
-                    date={1657065600000}
+                    date={1657238400000}
                     renderer={renderer}
                   />
 
