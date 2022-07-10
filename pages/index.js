@@ -131,7 +131,7 @@ window.addEventListener('DOMContentLoaded', event => {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                <li className="nav-item"><a className="nav-link me-lg-3" href="https://www.instagram.com/samcrossr/">Contáctos</a></li>
+                <li className="nav-item"><a className="nav-link me-lg-3" href="https://www.instagram.com/samcrossr/reels/">Contáctos</a></li>
                 <Link href="/buttontrack">
                   <li className="nav-item"><a className="nav-link me-lg-3" >Comprar Curso</a></li>
                 </Link>
@@ -155,7 +155,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
                 {/* <!-- Mashead text and app badges--> */}
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
-                  <h1 className="display-1 lh-1 mb-3">Guía definitiva para aprender a invertir!</h1>
+                  <h1 className="display-1 lh-1 mb-3">Guía definitiva para aprender a hacer trading!</h1>
                   <p className="lead fw-normal text-muted mb-5">El mejor curso para aprender cómo invertir en la bolsa de valores. Deja de perder tiempo, comienza hoy mismo.</p>
 
                   < Countdown
@@ -163,7 +163,7 @@ window.addEventListener('DOMContentLoaded', event => {
                     // date={Date.now() + 259200000}
                     //  date={1655959589000}
                     // TERMINA EL JUEVES A LAS 11:59:59
-                    date={1657238400000}
+                    date={1657929600000}
                     renderer={renderer}
                   />
 
@@ -463,7 +463,7 @@ window.addEventListener('DOMContentLoaded', event => {
                         </i>
                         <h3 className="font-alt">Sígueme en Instagram</h3>
                         <p className="text-muted mb-0">Videos sobre la bolsa de valores y mi vida diaria.</p>
-                        <a href="https://www.instagram.com/samcrossr/" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-2 mt-md-2">@samcrossr</a>
+                        <a href="https://www.instagram.com/samcrossr/reels/" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-2 mt-md-2">@samcrossr</a>
                       </div>
 
 
@@ -642,7 +642,7 @@ window.addEventListener('DOMContentLoaded', event => {
           <div className="cta-content">
             <div className="container px-5">
               <h2 className="text-white display-1 lh-1 mb-4">
-                Posibilidades infinitas al aprender a Invertir.
+                Posibilidades infinitas al aprender a hacer trading.
                 <br />
                 Comienza ahora!.
               </h2>
