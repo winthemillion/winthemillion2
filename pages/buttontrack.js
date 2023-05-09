@@ -157,7 +157,7 @@ window.addEventListener('DOMContentLoaded', event => {
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
                   <h1 className="display-1 lh-1 mb-3">Fundamentos del Trading</h1>
                   <p className="lead fw-normal text-muted mb-5">Fundamentos del mercado de valores
-En este curo aprenderás a hacer operaciones en la bolsa de valores, análisis técnico fundamental, gráficos y velas, daytrading+++
+En este curo aprenderás a hacer operaciones en la bolsa de valores, análisis técnico fundamental, gráficos y velas, daytrading++
 </p>
 
                   < Countdown
