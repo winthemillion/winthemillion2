@@ -163,7 +163,7 @@ window.addEventListener('DOMContentLoaded', event => {
                     // date={Date.now() + 259200000}
                     //  date={1655959589000}
                     // TERMINA EL JUEVES A LAS 11:59:59
-                    date={1662137190000}
+                    date={1686830400000}
                     renderer={renderer}
                   />
 

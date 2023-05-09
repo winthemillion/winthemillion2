@@ -134,7 +134,7 @@ window.addEventListener('DOMContentLoaded', event => {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
                 <li className="nav-item"><a className="nav-link me-lg-3" href="https://www.instagram.com/samcrossr/">Contáctos</a></li>
-                <li className="nav-item"><a className="nav-link me-lg-3" href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20">Comprar Curso</a></li>
+                <li className="nav-item"><a className="nav-link me-lg-3" href="https://samuel-s-site-d5bd.thinkific.com/order?ct=fd449acd-6818-4312-b2b0-e786a8dcd0d6">Comprar Curso</a></li>
               </ul>
               {/* <!-- <button className="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal"> */}
               {/* <span className="d-flex align-items-center"> */}
@@ -165,7 +165,7 @@ En este curo aprenderás a hacer operaciones en la bolsa de valores, análisis t
                     // date={Date.now() + 259200000}
                     //  date={1655959589000}
                     // TERMINA EL JUEVES A LAS 11:59:59
-                    date={1662137190000}
+                    date={1686830400000}
                     renderer={renderer}
                   />
 
@@ -216,7 +216,7 @@ En este curo aprenderás a hacer operaciones en la bolsa de valores, análisis t
 
 
                   <div className="d-flex flex-column flex-lg-row align-items-center">
-                    <a href="https://winthemillion.thinkific.com/order?ct=6eedddba-aaf4-49c7-866e-0a748f380e20" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comenzar curso <i className="bi bi-cart"></i></a>
+                    <a href="https://samuel-s-site-d5bd.thinkific.com/order?ct=fd449acd-6818-4312-b2b0-e786a8dcd0d6" className="btn btn-primary rounded-pill px-3 mb-5 mb-lg-0 " >Comenzar curso <i className="bi bi-cart"></i></a>
 
                     {/* <span className="d-flex align-items-center"> */}
 
